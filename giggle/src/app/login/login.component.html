@@ -1,0 +1,14 @@
+<FlexboxLayout>
+  <ActionBar >
+    <Label text="hello"></Label>
+  </ActionBar>
+  <StackLayout>
+
+    <TextField hint="username" [(ngModel)]="username"
+      autocorrect="false" autocapitalizationType="none"></TextField>
+    <TextField hint="password" [(ngModel)]="password" secure="true"></TextField>
+
+    <Button text="log in" class="btn btn-primary" (tap)="login()"></Button>
+    <Button text="sign up" class="btn btn-secondary"></Button>
+  </StackLayout>
+</FlexboxLayout>

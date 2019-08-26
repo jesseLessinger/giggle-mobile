@@ -1,0 +1,19 @@
+/* Add mobile styles for the component here.  */
+FlexboxLayout {
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url("~/images/greenapple.jpg"); 
+}
+StackLayout {
+  width: 300;
+  padding: 10 16;
+  
+}
+
+TextField {
+  background-color: rgb(242, 253, 91);
+  border-radius: 4;
+  -webkit-box-shadow: 10 10 8 6 #070101;
+  box-shadow: 10 10 8 6 #000000;
+}
