@@ -26,3 +26,8 @@ refer to http://docs.nativescript.org/ui/theme.
   background-color: rgb(48, 245, 75); 
 
 }
+
+.swipe-card {
+  border-radius: 50px;
+  margin: 30px;
+}

@@ -1,1 +1,15 @@
-<Button text="home works!" class="btn btn-primary"></Button>
+<FlexboxLayout>
+  <ActionBar >
+    <Label text="hello {{username}}"></Label>
+  </ActionBar>
+  <StackLayout>
+    <AbsoluteLayout>
+        <Image 
+          [left]="cardLeft" [top]="cardTop" width="90%" height="90%" 
+          id="swipe-card" class="swipe-card" 
+          (pan)="dragCard($event)"   
+          src="https://www.studentbrands.co.za/wp-content/uploads/2015/11/Funny-memes-3-580x581.jpg">
+        </Image>
+    </AbsoluteLayout>
+  </StackLayout>
+</FlexboxLayout>
